@@ -25,3 +25,10 @@ def test_one_column_join(spark_session):
     actual_ds.show()
 
     assert actual_ds.collect() == expected_ds.collect()
+
+
+def test_no_columns_join():
+    pass
+
+def test_multiple_column_join():
+    pass
